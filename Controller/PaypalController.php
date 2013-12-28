@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PaymillBundle for Symfony2
+ * PaypalBundle for Symfony2
  *
  * This Bundle is part of Symfony2 Payment Suite
  *
@@ -11,7 +11,7 @@
  * Marc Morera 2013
  */
 
-namespace Mandrieu\PaymillBundle\Controller;
+namespace Mandrieu\PaypalBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;

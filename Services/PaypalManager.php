@@ -11,7 +11,7 @@
  * Mickael Andrieu 2013
  */
 
-namespace Mmoreram\PaymillBundle\Services;
+namespace Mandrieu\PaypalBundle\Services;
 
 use Mmoreram\PaymentCoreBundle\Services\Interfaces\PaymentBridgeInterface;
 use Mmoreram\PaymentCoreBundle\Exception\PaymentAmountsNotMatchException;
@@ -19,7 +19,7 @@ use Mmoreram\PaymentCoreBundle\Exception\PaymentOrderNotFoundException;
 use Mmoreram\PaypalBundle\Services\Wrapper\PaypalTransactionWrapper;
 use Mmoreram\PaymentCoreBundle\Services\PaymentEventDispatcher;
 use Mmoreram\PaymentCoreBundle\Exception\PaymentException;
-use Mmoreram\PaymillBundle\PaypalMethod;;
+use Mmoreram\PaypalBundle\PaypalMethod;;
 
 /**
  * Paypal manager

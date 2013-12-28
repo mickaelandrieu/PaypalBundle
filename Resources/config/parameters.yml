@@ -1,9 +1,9 @@
 parameters:
 
-    paymill.api.endpoint: "https://api.paymill.com/v2/"
-    paymill.controller.route.name: "paymill_execute"
-    paymill.form.type.class: "Mmoreram\\PaymillBundle\\Form\\Type\\PaymillType"
-    paymill.transaction.wrapper.class: "Mmoreram\\PaymillBundle\\Services\\Wrapper\\PaymillTransactionWrapper"
-    paymill.manager.class: "Mmoreram\\PaymillBundle\\Services\\PaymillManager"
-    paymill.twig.extension.class: "Mmoreram\\PaymillBundle\\Twig\\PaymillExtension"
-    paymill.routes.loader.class: "Mmoreram\\PaymillBundle\\Router\\PaymillRoutesLoader"
+    paypal.api.endpoint: "xxxxxxxx"
+    paypal.controller.route.name: "paypal_execute"
+    paypal.form.type.class: "Mandrieu\\PaypalBundle\\Form\\Type\\PaypalType"
+    paypal.transaction.wrapper.class: "Mandrieu\\PaypalBundle\\Services\\Wrapper\\PaypalTransactionWrapper"
+    paypal.manager.class: "Mandrieu\\PaypalBundle\\Services\\PaymillManager"
+    paypal.twig.extension.class: "Mandrieu\\PaypalBundle\\Twig\\PaypalExtension"
+    paypal.routes.loader.class: "Mandrieu\\PaypalBundle\\Router\\PaypalRoutesLoader"

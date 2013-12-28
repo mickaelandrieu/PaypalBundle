@@ -11,7 +11,7 @@
  * Mickael Andrieu 2013
  */
 
-namespace Mandrieu\PaymillBundle\Form\Type;
+namespace Mandrieu\PaypalBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;

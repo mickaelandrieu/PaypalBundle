@@ -107,4 +107,4 @@ Customize
 
 `paypal_render()` only print form in a simple way.  
 
-As every project need its own form design, you should overwrite in `app/Resources/PaymillBundle/views/Paypal/view.html.twig`, paypal form render template placed in `Mandrieu/Paypal/Bundle/Resources/views/Paypal/view.html.twig`.
+As every project need its own form design, you should overwrite in `app/Resources/PaypalBundle/views/Paypal/view.html.twig`, paypal form render template placed in `Mandrieu/Paypal/Bundle/Resources/views/Paypal/view.html.twig`.
