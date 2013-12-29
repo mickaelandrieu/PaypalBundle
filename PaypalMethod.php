@@ -13,8 +13,8 @@
 
 namespace Mandrieu\PaypalBundle;
 
-use Mmoreram\PaymentCoreBundle\PaymentMethodInterface;
-
+use Mmoreram\PaymrntCoreBundle\PaymentMethodInterface;
+use PayPal\Api\Payer;
 
 /**
  * PaypalMethod class
@@ -103,6 +103,20 @@ class PaypalMethod implements PaymentMethodInterface
      * Transaction
      */
     private $transaction;
+
+    /**
+     * @var string
+     *
+     * Currency
+     */
+    private $currency;
+
+    /**
+     * @var Payer
+     *
+     * Payer
+     */
+    private $payer;
 
 
     /**
@@ -363,5 +377,28 @@ class PaypalMethod implements PaymentMethodInterface
     {
         return $this->transaction;
     }
+
+    /**
+     * Get Payer
+     *
+     * @return Payer $payer
+     */
+    public function getPayer()
+    {
+        return $this->payer;
+    }
+
+    /**
+     * Set Payer
+     *
+     * @param Payer $payer
+     *
+     * @return PaypalMethod self Object
+     */
+    public function setPayer(Payer $payer)
+    {
+        $this->payer = $payer;
+    }
+
 
 }
